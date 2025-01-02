@@ -11,9 +11,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - uses: actions/checkout@v4
-      - run: |
-          npm install
-      - run: |
-          npm run compile
-      - run: |
-          npm run package
+      - name: Generate table
+        uses: parasoft/parasoft-coverage-action@master
+        with:             
+            reportPath: 'D:\reports\projects\javaprojecttemplate\build\report-2024.2\jtest\junit\coverage.xml'
