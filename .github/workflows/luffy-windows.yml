@@ -11,4 +11,4 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\reports\projects\javaprojecttemplate\build\report-2024.2\jtest\junit\coverage.xml'
+            report: 'D:\reports\parasoftreports\static_unit_coverage_reports\mutiple reports\**.xml'
