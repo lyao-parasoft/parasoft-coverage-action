@@ -5,10 +5,10 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: [self-hosted，luffy-windows]
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\reports\parasoftreports\static_unit_coverage_reports\dottest\reports-2022\dottest\ut\coverage.xml'
+            report: '../../../coverage.xml'
