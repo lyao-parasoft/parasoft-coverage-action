@@ -11,4 +11,4 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: '../../../coverage.xml'
+            report: '../../../../coverage.xml'
