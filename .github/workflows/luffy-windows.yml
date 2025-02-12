@@ -11,5 +11,5 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            #report: 'D:\reports\projects\special reports\test汉字1\javaprojecttemplate\reports\unit\Coverage.xml'
+            report: 'D:\reports\projects\special reports\test汉字1\javaprojecttemplate\reports\unit\Coverage-no-existed.xml'
             parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-11'
