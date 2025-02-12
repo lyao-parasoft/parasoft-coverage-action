@@ -11,5 +11,5 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\reports\large-reports\JavaProjectTemplate-perfomanceTest-1000P-88006V-62002T-724014L-60C\report\jtest\junit\report.xml'
+            report: 'D:\reports\large-reports\JavaProjectTemplate-perfomanceTest-1000P-88006V-62002T-724014L-60C\report\jtest\junit\report'
             parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-11'
