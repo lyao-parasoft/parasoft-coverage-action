@@ -11,4 +11,4 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\reports\parasoftreports\static_unit_coverage_reports\docker\dottest-coverage-docker.xml'
+            report: 'D:\reports\large-reports\JavaProjectTemplate-perfomanceTest-2000P-124002T-1448014L-60C\report\jtest\junit\coverage.xml'
