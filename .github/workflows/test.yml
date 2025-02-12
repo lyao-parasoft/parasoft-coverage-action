@@ -1,6 +1,7 @@
 name: "Test"
 
 on:
+  workflow_dispatch:  # 启用手动触发
   push:
     branches: [ master ]
   pull_request:
