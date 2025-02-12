@@ -12,3 +12,4 @@ jobs:
         uses: parasoft/parasoft-coverage-action@master
         with:             
             #report: 'D:\reports\projects\special reports\test汉字1\javaprojecttemplate\reports\unit\Coverage.xml'
+            parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-11'
