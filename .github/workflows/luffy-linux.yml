@@ -5,10 +5,10 @@ on:
 
 jobs:
   build:
-    runs-on: Linux
+    runs-on: luffy-linux
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: '/home/devtest/reports/mutiple reports/**.xml'
+            report: '/home/devtest/reports/special scenarios/test=dd/coverage/coverage.xml'
