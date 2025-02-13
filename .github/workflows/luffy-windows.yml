@@ -11,5 +11,5 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\reports\parasoftreports\static_unit_coverage_reports\dottest\reports-2024.2.0\dottest\ut\coverage-2024.2.0.xml'
+            report: 'D:\reports\parasoftreports\static_unit_coverage_reports\Cpp standard\reports-2023.1\cpptest-std\coverage\coverage.xml'
             #parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-21.0.56'
