@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
-        uses: parasoft/parasoft-coverage-action@master
+        uses: parasoft/parasoft-coverage-action@1.0.0
         with:             
             report: 'D:\reports\same file name report\Cpp Pro\coverage.xml'
             #parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-21.0.56'
