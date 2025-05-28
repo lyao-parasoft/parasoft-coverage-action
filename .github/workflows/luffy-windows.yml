@@ -5,8 +5,8 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
-     #[self-hosted,luffy-windows]
+    runs-on: [self-hosted,Luffy-Windows]
+     #[self-hosted,Luffy-Windows]
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
