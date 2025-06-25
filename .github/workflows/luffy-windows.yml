@@ -12,5 +12,5 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@1.0.0
         with:             
-            report: 'D:\Jenkins-Versions\2.504.1\jenkins-config\workspace\Sonar-TEST1\projects\parabank\report\coverage\coverage.xml'
+            report: 'D:\Jenkins-Versions\2.504.1\jenkins-config\workspace\Sonar-TEST1\projects\CppProjectTemplate\report\std\coverage\coverage.xml'
             #parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-21.0.56'
