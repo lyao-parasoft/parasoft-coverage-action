@@ -11,4 +11,4 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@1.0.0
         with:             
-            report: '/home/devtest/reports/special scenarios/**/coverage/**.xml'
+            report: '/home/devtest/reports/javatemplate/coverage.xml'
