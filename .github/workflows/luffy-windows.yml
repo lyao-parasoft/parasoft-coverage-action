@@ -12,5 +12,5 @@ jobs:
       - name: Generate table
         uses: parasoft/parasoft-coverage-action@master
         with:             
-            report: 'D:\Sonarqube\parasoft-tools-reports\dotTest\coverage\coverage.xml'
-            #parasoftToolOrJavaRootPath: 'C:\Program Files\Java\jdk-21.0.56'
+            report: 'D:\Sonarqube\sonar-integration-test\parasoft-findings-sonar-integration-test\projects\CppProjectTemplate\report\std\coverage\coverage.xml'
+            parasoftToolOrJavaRootPath: 'C:\Program Files\Java\zulu-21.50.19'
