@@ -28,6 +28,17 @@
         ]
     },
     {
+        "purl" : "pkg:npm/minipass@7.1.3",
+        "licenses" : [
+            {
+                "license" : {
+                    "id" : "BlueOak-1.0.0",
+                    "url" : "https://blueoakcouncil.org/license/1.0.0"
+                }
+            }
+        ]
+    },
+    {
         "purl" : "pkg:npm/package-json-from-dist@1.0.1",
         "licenses" : [
             {
@@ -39,7 +50,7 @@
         ]
     },
     {
-        "purl" : "pkg:npm/path-scurry@2.0.1",
+        "purl" : "pkg:npm/path-scurry@2.0.2",
         "licenses" : [
             {
                 "license" : {
@@ -50,7 +61,7 @@
         ]
     },
     {
-        "purl" : "pkg:npm/glob@11.1.0",
+        "purl" : "pkg:npm/glob@13.0.6",
         "licenses" : [
             {
                 "license" : {
@@ -72,7 +83,7 @@
         ]
     },
     {
-        "purl" : "pkg:npm/lru-cache@11.2.5",
+        "purl" : "pkg:npm/lru-cache@11.5.1",
         "licenses" : [
             {
                 "license" : {
