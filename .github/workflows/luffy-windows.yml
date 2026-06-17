@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
-        uses: parasoft/parasoft-coverage-action@master
+        uses: parasoft/parasoft-coverage-action@1.0.1
         with:             
             report: 'D:\Sonarqube\sonar-integration-test\parasoft-findings-sonar-integration-test\projects\CppProjectTemplate\report\std\coverage\coverage.xml'
             parasoftToolOrJavaRootPath: 'C:\Program Files\Java\zulu-21.50.19'
