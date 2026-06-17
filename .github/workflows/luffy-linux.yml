@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate table
-        uses: parasoft/parasoft-coverage-action@1.0.41
+        uses: parasoft/parasoft-coverage-action@1.0.1
         with:             
             report: '/home/devtest/reports/javatemplate/coverage.xml'
