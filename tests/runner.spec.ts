@@ -228,7 +228,6 @@ describe('parasoft-coverage-action/runner', () => {
             let handleProcessStub: any;
 
             // Use Sinon to mock childProcess.spawn
-            // @ts-expect-error: Here is missing some properties from type, but they are not used in runner.ts
             const spawnStub = sinon.stub(cp, 'spawn').callsFake(() => {
                 const mockProcess = {
                     stdout: { on: () => {} },
